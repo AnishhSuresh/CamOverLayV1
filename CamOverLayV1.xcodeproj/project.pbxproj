@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68BB7B8C2E77CEA300BEC163 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B8B2E77CEA300BEC163 /* opencv2.framework */; };
+		68BB7B8D2E77CEA300BEC163 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B8B2E77CEA300BEC163 /* opencv2.framework */; };
+		68BB7B8E2E77CEA300BEC163 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B8B2E77CEA300BEC163 /* opencv2.framework */; };
+		68BB7B912E77CF0100BEC163 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B902E77CF0100BEC163 /* AssetsLibrary.framework */; };
+		68BB7B932E77CF0A00BEC163 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B922E77CF0A00BEC163 /* CoreGraphics.framework */; };
+		68BB7B952E77CF1C00BEC163 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B942E77CF1C00BEC163 /* CoreMedia.framework */; };
+		68BB7B972E77CF2400BEC163 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B962E77CF2400BEC163 /* CoreFoundation.framework */; };
+		68BB7B992E77CF2B00BEC163 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B982E77CF2B00BEC163 /* Accelerate.framework */; };
+		68BB7BA02E77D0DC00BEC163 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 68BB7B9F2E77D0DC00BEC163 /* OpenCVWrapper.mm */; };
 		889F71EB2E77CB0E00212895 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 889F71EA2E77CB0500212895 /* README.txt */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68BB7B8B2E77CEA300BEC163 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = /Users/thiruvasagamthirunavukkarasu/Downloads/opencv2.framework; sourceTree = "<absolute>"; };
+		68BB7B902E77CF0100BEC163 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		68BB7B922E77CF0A00BEC163 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68BB7B942E77CF1C00BEC163 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		68BB7B962E77CF2400BEC163 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		68BB7B982E77CF2B00BEC163 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		68BB7B9A2E77D0DC00BEC163 /* CamOverLayV1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CamOverLayV1-Bridging-Header.h"; sourceTree = "<group>"; };
+		68BB7B9E2E77D0DC00BEC163 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenCVWrapper.h; path = CamOverLayV1/OpenCVWrapper.h; sourceTree = "<group>"; };
+		68BB7B9F2E77D0DC00BEC163 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenCVWrapper.mm; path = CamOverLayV1/OpenCVWrapper.mm; sourceTree = "<group>"; };
 		882B80492E77C4F70032D569 /* CamOverLayV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamOverLayV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		882B80562E77C4F80032D569 /* CamOverLayV1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamOverLayV1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		882B80602E77C4F90032D569 /* CamOverLayV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamOverLayV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +75,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BB7B992E77CF2B00BEC163 /* Accelerate.framework in Frameworks */,
+				68BB7B972E77CF2400BEC163 /* CoreFoundation.framework in Frameworks */,
+				68BB7B952E77CF1C00BEC163 /* CoreMedia.framework in Frameworks */,
+				68BB7B932E77CF0A00BEC163 /* CoreGraphics.framework in Frameworks */,
+				68BB7B912E77CF0100BEC163 /* AssetsLibrary.framework in Frameworks */,
+				68BB7B8D2E77CEA300BEC163 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BB7B8C2E77CEA300BEC163 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,20 +96,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BB7B8E2E77CEA300BEC163 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68BB7B8F2E77CF0100BEC163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BB7B982E77CF2B00BEC163 /* Accelerate.framework */,
+				68BB7B962E77CF2400BEC163 /* CoreFoundation.framework */,
+				68BB7B942E77CF1C00BEC163 /* CoreMedia.framework */,
+				68BB7B922E77CF0A00BEC163 /* CoreGraphics.framework */,
+				68BB7B902E77CF0100BEC163 /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		882B80402E77C4F70032D569 = {
 			isa = PBXGroup;
 			children = (
+				68BB7B9E2E77D0DC00BEC163 /* OpenCVWrapper.h */,
+				68BB7B9F2E77D0DC00BEC163 /* OpenCVWrapper.mm */,
+				68BB7B8B2E77CEA300BEC163 /* opencv2.framework */,
 				889F71EA2E77CB0500212895 /* README.txt */,
 				882B804B2E77C4F70032D569 /* CamOverLayV1 */,
 				882B80592E77C4F90032D569 /* CamOverLayV1Tests */,
 				882B80632E77C4F90032D569 /* CamOverLayV1UITests */,
+				68BB7B8F2E77CF0100BEC163 /* Frameworks */,
 				882B804A2E77C4F70032D569 /* Products */,
+				68BB7B9A2E77D0DC00BEC163 /* CamOverLayV1-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,6 +224,7 @@
 				TargetAttributes = {
 					882B80482E77C4F70032D569 = {
 						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1620;
 					};
 					882B80552E77C4F80032D569 = {
 						CreatedOnToolsVersion = 16.4;
@@ -243,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BB7BA02E77D0DC00BEC163 /* OpenCVWrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,9 +445,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
+				GCC_PREFIX_HEADER = /Users/thiruvasagamthirunavukkarasu/Desktop/CamOverLayV1/CamOverLayV1/PrefixHeader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -417,7 +464,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ATR.CamOverLayV1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CamOverLayV1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -427,9 +477,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
+				GCC_PREFIX_HEADER = /Users/thiruvasagamthirunavukkarasu/Desktop/CamOverLayV1/CamOverLayV1/PrefixHeader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,7 +496,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ATR.CamOverLayV1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CamOverLayV1-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
