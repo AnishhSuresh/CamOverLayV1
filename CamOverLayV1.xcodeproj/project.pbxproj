@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		889F71EB2E77CB0E00212895 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 889F71EA2E77CB0500212895 /* README.txt */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		882B80572E77C4F80032D569 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		882B80492E77C4F70032D569 /* CamOverLayV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamOverLayV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		882B80562E77C4F80032D569 /* CamOverLayV1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamOverLayV1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		882B80602E77C4F90032D569 /* CamOverLayV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamOverLayV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		889F71EA2E77CB0500212895 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		882B80402E77C4F70032D569 = {
 			isa = PBXGroup;
 			children = (
+				889F71EA2E77CB0500212895 /* README.txt */,
 				882B804B2E77C4F70032D569 /* CamOverLayV1 */,
 				882B80592E77C4F90032D569 /* CamOverLayV1Tests */,
 				882B80632E77C4F90032D569 /* CamOverLayV1UITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				889F71EB2E77CB0E00212895 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
