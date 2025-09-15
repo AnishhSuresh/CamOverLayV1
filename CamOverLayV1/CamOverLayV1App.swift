@@ -9,6 +9,11 @@ import SwiftUI
 
 @main
 struct CamOverLayV1App: App {
+    
+    init() {
+        print("\(OpenCVWrapper.openCVVersionString())")
+        }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

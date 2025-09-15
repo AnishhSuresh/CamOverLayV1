@@ -16,9 +16,7 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
-        .onAppear(){
-            print("\(OpenCVWrapper.openCVVersionString())")
-        }
+
     }
 }
 
