@@ -4,10 +4,21 @@
 //
 //  Created by Thiruvasagam Thirunavukkarasu on 9/15/25.
 //
+#import <opencv2/opencv.hpp>
+
 
 #import "OpenCVWrapper.h"
 
-#import <opencv2/opencv.hpp>
+#ifdef NO
+#undef NO
+#endif
+#ifdef YES
+#undef YES
+#endif
+
+
+
+
 
 
 @implementation OpenCVWrapper

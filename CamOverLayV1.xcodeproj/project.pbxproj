@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		68BB7B8C2E77CEA300BEC163 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B8B2E77CEA300BEC163 /* opencv2.framework */; };
-		68BB7B8D2E77CEA300BEC163 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B8B2E77CEA300BEC163 /* opencv2.framework */; };
-		68BB7B8E2E77CEA300BEC163 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B8B2E77CEA300BEC163 /* opencv2.framework */; };
+		6872FDBC2E78D42200D40AE2 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6872FDBB2E78D42200D40AE2 /* opencv2.framework */; };
 		68BB7B912E77CF0100BEC163 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B902E77CF0100BEC163 /* AssetsLibrary.framework */; };
 		68BB7B932E77CF0A00BEC163 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B922E77CF0A00BEC163 /* CoreGraphics.framework */; };
 		68BB7B952E77CF1C00BEC163 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB7B942E77CF1C00BEC163 /* CoreMedia.framework */; };
@@ -37,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		68BB7B8B2E77CEA300BEC163 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = /Users/thiruvasagamthirunavukkarasu/Downloads/opencv2.framework; sourceTree = "<absolute>"; };
+		6872FDBB2E78D42200D40AE2 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../Frameworks/opencv2.framework; sourceTree = "<group>"; };
 		68BB7B902E77CF0100BEC163 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		68BB7B922E77CF0A00BEC163 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		68BB7B942E77CF1C00BEC163 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -52,9 +50,22 @@
 		889F71EA2E77CB0500212895 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6872FDBD2E78D88300D40AE2 /* Exceptions for "CamOverLayV1" folder in "CamOverLayV1" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				OpenCVWrapper.mm,
+			);
+			target = 882B80482E77C4F70032D569 /* CamOverLayV1 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		882B804B2E77C4F70032D569 /* CamOverLayV1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6872FDBD2E78D88300D40AE2 /* Exceptions for "CamOverLayV1" folder in "CamOverLayV1" target */,
+			);
 			path = CamOverLayV1;
 			sourceTree = "<group>";
 		};
@@ -75,12 +86,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6872FDBC2E78D42200D40AE2 /* opencv2.framework in Frameworks */,
 				68BB7B992E77CF2B00BEC163 /* Accelerate.framework in Frameworks */,
 				68BB7B972E77CF2400BEC163 /* CoreFoundation.framework in Frameworks */,
 				68BB7B952E77CF1C00BEC163 /* CoreMedia.framework in Frameworks */,
 				68BB7B932E77CF0A00BEC163 /* CoreGraphics.framework in Frameworks */,
 				68BB7B912E77CF0100BEC163 /* AssetsLibrary.framework in Frameworks */,
-				68BB7B8D2E77CEA300BEC163 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +99,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68BB7B8C2E77CEA300BEC163 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68BB7B8E2E77CEA300BEC163 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +115,7 @@
 		68BB7B8F2E77CF0100BEC163 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6872FDBB2E78D42200D40AE2 /* opencv2.framework */,
 				68BB7B982E77CF2B00BEC163 /* Accelerate.framework */,
 				68BB7B962E77CF2400BEC163 /* CoreFoundation.framework */,
 				68BB7B942E77CF1C00BEC163 /* CoreMedia.framework */,
@@ -120,7 +130,6 @@
 			children = (
 				68BB7B9E2E77D0DC00BEC163 /* OpenCVWrapper.h */,
 				68BB7B9F2E77D0DC00BEC163 /* OpenCVWrapper.mm */,
-				68BB7B8B2E77CEA300BEC163 /* opencv2.framework */,
 				889F71EA2E77CB0500212895 /* README.txt */,
 				882B804B2E77C4F70032D569 /* CamOverLayV1 */,
 				882B80592E77C4F90032D569 /* CamOverLayV1Tests */,
@@ -448,14 +457,18 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MKDF9XHG2K;
 				ENABLE_PREVIEWS = YES;
-				GCC_PREFIX_HEADER = /Users/thiruvasagamthirunavukkarasu/Desktop/CamOverLayV1/CamOverLayV1/PrefixHeader.pch;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Frameworks/**";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CamOverLayV1/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../Frameworks/opencv2.framework/**";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,14 +493,18 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MKDF9XHG2K;
 				ENABLE_PREVIEWS = YES;
-				GCC_PREFIX_HEADER = /Users/thiruvasagamthirunavukkarasu/Desktop/CamOverLayV1/CamOverLayV1/PrefixHeader.pch;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Frameworks/**";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CamOverLayV1/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../Frameworks/opencv2.framework/**";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
